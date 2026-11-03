@@ -1,0 +1,4 @@
+reason,n_excluded
+Age < 65,373
+"NACCLIVS = 5 (other, n too small)",1
+NACCLIVS = 9 (unknown),2

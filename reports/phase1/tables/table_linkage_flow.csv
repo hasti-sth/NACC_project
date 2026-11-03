@@ -1,0 +1,9 @@
+step,n
+UDS file: records,1237
+UDS file: unique participants (NACCID),1237
+MRI file: records,1237
+MRI file: unique participants (NACCID),1237
+Participants in both files,1237
+Only in UDS (no MRI match),0
+Only in MRI (no UDS match),0
+Duplicate NACCID in UDS / in MRI,0 / 0

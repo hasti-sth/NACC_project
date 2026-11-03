@@ -1,0 +1,11 @@
+variable,expected_range,special_codes,n_nan,n_special_code,n_non_integer(imputed?),n_non_integer_out_of_range,n_integer_out_of_range
+SEX,1-2,-,0,0,0,0,0
+EDUC,0-36,[99],0,2,0,0,0
+NACCAGE,18-110,-,0,0,0,0,0
+NACCLIVS,1-5,[9],0,3,0,0,0
+MARISTAT,1-6,[9],0,3,0,0,0
+NACCUDSD,1-4,-,0,0,0,0,0
+TRAILB,0-300,"[995, 996, 997, 998]",0,55,48,9,0
+TRAILA,0-150,"[995, 996, 997, 998]",0,21,48,4,1
+MOCATOTS,0-30,[88],0,4,249,5,0
+NACCAPOE,1-6,[9],0,278,0,0,0

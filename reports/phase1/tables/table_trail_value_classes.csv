@@ -1,0 +1,7 @@
+,TRAILB,TRAILA,TRAILB_pct,TRAILA_pct
+observed,1079,1152,87.2,93.1
+observed_at_cap,55,15,4.4,1.2
+special_code,55,21,4.4,1.7
+imputed_in_range,39,44,3.2,3.6
+imputed_out_of_range,9,4,0.7,0.3
+integer_out_of_range,0,1,0.0,0.1

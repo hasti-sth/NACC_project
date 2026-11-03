@@ -1,0 +1,13 @@
+comparison,pair,rho
+thickness vs volume,LH caudal MF,0.27
+thickness vs volume,LH rostral MF,0.2
+thickness vs volume,LH superior F,0.15
+thickness vs volume,RH caudal MF,0.29
+thickness vs volume,RH rostral MF,0.2
+thickness vs volume,RH superior F,0.13
+LH vs RH,caudal MF thick,0.69
+LH vs RH,caudal MF vol,0.66
+LH vs RH,rostral MF thick,0.72
+LH vs RH,rostral MF vol,0.79
+LH vs RH,superior F thick,0.86
+LH vs RH,superior F vol,0.86

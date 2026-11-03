@@ -1,0 +1,9 @@
+step,n
+Linked participants (UDS + MRI),1237
+Age >= 65,864
+"Valid NACCLIVS in {1,2,3,4}  (analytic sample A)",861
+   A with observed TRAILB (primary definition),798
+   A with TRAILB incl. imputed in-range values (sensitivity),821
+   A with frontal thickness (all 6 regions),861
+"   A with valid SEX, EDUC and age",860
+   A with TRAILB (primary) + thickness + SEX/EDUC/age (complete case),797

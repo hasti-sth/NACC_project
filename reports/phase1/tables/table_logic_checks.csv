@@ -1,0 +1,9 @@
+check,n,comment
+NACCUDSD = 1 (normal) and CDRGLOB >= 1,0,contradictory
+NACCUDSD = 4 (dementia) and CDRGLOB = 0,0,contradictory
+NACCUDSD = 1 (normal) and CDRGLOB = 0.5,75,"possible (clinician judgement), not an error"
+"NACCLIVS = 1 (alone) and MARISTAT in {married, domestic partner}",17,plausible (partner lives elsewhere); flagged
+"NACCLIVS = 2 (spouse/partner) and MARISTAT in {widowed, divorced, never married}",14,plausible (unmarried partner); flagged
+TRAILB < TRAILA (both observed),2,unusual (part B is normally slower)
+EDUC (valid) > NACCAGE - 3,0,impossible
+NACCAGE < 18 or > 110,0,impossible

@@ -1,0 +1,180 @@
+variable,domain,subdomain,description,n_unique,min,max,inferred_scale
+SEX,demographic,demographics,"Sex (1 male, 2 female)",2,1.0,2.0,binary
+HISPANIC,demographic,demographics,Hispanic/Latino ethnicity,3,0.0,9.0,categorical or discrete (<=15 values)
+HISPOR,demographic,demographics,see RDD,9,1.0,99.0,categorical or discrete (<=15 values)
+RACE,demographic,demographics,Primary race,6,1.0,99.0,categorical or discrete (<=15 values)
+PRIMLANG,demographic,demographics,Primary language,6,1.0,9.0,categorical or discrete (<=15 values)
+EDUC,demographic,demographics,Years of education (99 = unknown),23,0.0,99.0,continuous / many values
+MARISTAT,demographic,demographics,Marital status,7,1.0,9.0,categorical or discrete (<=15 values)
+NACCLIVS,demographic,demographics,"Living situation (1 alone, 2 spouse/partner, 3 relative/friend, 4 group, 5 other, 9 unknown)",6,1.0,9.0,categorical or discrete (<=15 values)
+RESIDENC,demographic,demographics,Type of residence,4,1.0,9.0,categorical or discrete (<=15 values)
+NACCNIHR,demographic,demographics,see RDD,6,1.0,99.0,categorical or discrete (<=15 values)
+NACCAGE,demographic,demographics,Age at visit (years),48,41.0,91.0,continuous / many values
+INDEPEND,functional,independence / CDR / FAQ,Level of independence,5,1.0,9.0,categorical or discrete (<=15 values)
+BILLS,functional,independence / CDR / FAQ,see RDD,13,0.0,9.0,continuous / many values
+TAXES,functional,independence / CDR / FAQ,see RDD,15,0.0,9.0,continuous / many values
+SHOPPING,functional,independence / CDR / FAQ,see RDD,10,0.0,9.0,continuous / many values
+GAMES,functional,independence / CDR / FAQ,see RDD,12,0.0,9.0,continuous / many values
+STOVE,functional,independence / CDR / FAQ,see RDD,8,0.0,9.0,continuous / many values
+MEALPREP,functional,independence / CDR / FAQ,see RDD,11,0.0,9.0,continuous / many values
+EVENTS,functional,independence / CDR / FAQ,see RDD,9,0.0,9.0,continuous / many values
+PAYATTN,functional,independence / CDR / FAQ,see RDD,10,0.0,9.0,continuous / many values
+REMDATES,functional,independence / CDR / FAQ,see RDD,11,0.0,9.0,continuous / many values
+TRAVEL,functional,independence / CDR / FAQ,see RDD,9,0.0,9.0,continuous / many values
+MEMORY,functional,independence / CDR / FAQ,CDR box: memory,5,0.0,3.0,continuous / many values
+ORIENT,functional,independence / CDR / FAQ,CDR box: orientation,4,0.0,2.0,continuous / many values
+JUDGMENT,functional,independence / CDR / FAQ,CDR box: judgment/problem solving,5,0.0,3.0,continuous / many values
+COMMUN,functional,independence / CDR / FAQ,CDR box: community affairs,4,0.0,2.0,continuous / many values
+HOMEHOBB,functional,independence / CDR / FAQ,CDR box: home/hobbies,5,0.0,3.0,continuous / many values
+PERSCARE,functional,independence / CDR / FAQ,CDR box: personal care,4,0.0,3.0,categorical or discrete (<=15 values)
+CDRSUM,functional,independence / CDR / FAQ,CDR sum of boxes,22,0.0,15.0,continuous / many values
+CDRGLOB,functional,independence / CDR / FAQ,Global CDR,4,0.0,2.0,continuous / many values
+DECSUB,cognitive,neuropsychological tests,Subject reports memory decline,2,0.0,1.0,binary
+ANIMALS,cognitive,neuropsychological tests,Category fluency: animals,45,1.0,98.0,continuous / many values
+VEG,cognitive,neuropsychological tests,Category fluency: vegetables,35,0.0,98.0,continuous / many values
+TRAILA,cognitive,neuropsychological tests,"Trail Making Test Part A, seconds",131,11.0,998.0,continuous / many values
+TRAILARR,cognitive,neuropsychological tests,Trails A: errors (verify in RDD),16,0.0,98.0,continuous / many values
+TRAILALI,cognitive,neuropsychological tests,Trails A: correct lines (verify in RDD),19,0.0,98.0,continuous / many values
+TRAILB,cognitive,neuropsychological tests,"Trail Making Test Part B, seconds (executive function; higher = worse)",218,28.0,998.0,continuous / many values
+TRAILBRR,cognitive,neuropsychological tests,Trails B: errors (verify in RDD),31,0.0,98.0,continuous / many values
+TRAILBLI,cognitive,neuropsychological tests,Trails B: correct lines (verify in RDD),38,0.0,98.0,continuous / many values
+MOCATOTS,cognitive,neuropsychological tests,MoCA total score (0-30),72,0.0,88.0,continuous / many values
+NACCUDSD,diagnostic,cognitive status,"Cognitive status at visit (1 normal, 2 impaired-not-MCI, 3 MCI, 4 dementia)",4,1.0,4.0,categorical or discrete (<=15 values)
+NACCFAM,medical,family history,Family history of cognitive impairment,7,0.0,9.0,continuous / many values
+NACCMOM,medical,family history,see RDD,5,0.0,1.0,continuous / many values
+NACCDAD,medical,family history,see RDD,4,0.0,9.0,continuous / many values
+NACCAM,medical,family history,see RDD,7,0.0,9.0,continuous / many values
+NACCAMS,medical,family history,see RDD,10,1.0,9.0,continuous / many values
+NACCFM,medical,family history,see RDD,6,0.0,9.0,continuous / many values
+NACCFMS,medical,family history,see RDD,2,3.0,9.0,binary
+NACCOM,medical,family history,see RDD,6,0.0,9.0,continuous / many values
+NACCOMS,medical,family history,see RDD,1,9.0,9.0,binary
+NACCFADM,medical,family history,see RDD,2,0.0,1.0,binary
+NACCFFTD,medical,family history,see RDD,2,0.0,1.0,binary
+NACCAPOE,medical,genetic,APOE genotype,7,1.0,9.0,categorical or discrete (<=15 values)
+ANYMEDS,medical,medications,Taking any medication,3,0.0,1.0,continuous / many values
+NACCAAAS,medical,medications,see RDD,2,0.0,1.0,binary
+NACCAANX,medical,medications,see RDD,3,0.0,1.0,continuous / many values
+NACCAC,medical,medications,see RDD,3,0.0,1.0,continuous / many values
+NACCACEI,medical,medications,see RDD,2,0.0,1.0,binary
+NACCADEP,medical,medications,see RDD,2,0.0,1.0,binary
+NACCAHTN,medical,medications,see RDD,4,0.0,1.0,continuous / many values
+NACCAMD,medical,medications,see RDD,25,0.0,22.0,continuous / many values
+NACCANGI,medical,medications,see RDD,3,0.0,1.0,continuous / many values
+NACCAPSY,medical,medications,see RDD,2,0.0,1.0,binary
+NACCBETA,medical,medications,see RDD,2,0.0,1.0,binary
+NACCCCBS,medical,medications,see RDD,4,0.0,1.0,continuous / many values
+NACCDBMD,medical,medications,see RDD,2,0.0,1.0,binary
+NACCDIUR,medical,medications,see RDD,3,0.0,1.0,continuous / many values
+NACCEMD,medical,medications,see RDD,2,0.0,1.0,binary
+NACCEPMD,medical,medications,see RDD,2,0.0,1.0,binary
+NACCHTNC,medical,medications,see RDD,2,0.0,1.0,binary
+NACCLIPL,medical,medications,see RDD,3,0.0,1.0,continuous / many values
+NACCNSD,medical,medications,see RDD,3,0.0,1.0,continuous / many values
+NACCPDMD,medical,medications,see RDD,3,0.0,1.0,continuous / many values
+NACCVASD,medical,medications,see RDD,2,0.0,1.0,binary
+TOBAC30,medical,substance use,see RDD,4,0.0,9.0,continuous / many values
+TOBAC100,medical,substance use,see RDD,8,0.0,9.0,continuous / many values
+SMOKYRS,medical,substance use,see RDD,71,0.0,99.0,continuous / many values
+PACKSPER,medical,substance use,see RDD,17,0.0,9.0,continuous / many values
+QUITSMOK,medical,substance use,see RDD,79,11.0,999.0,continuous / many values
+ALCOHOL,medical,substance use,see RDD,6,0.0,9.0,continuous / many values
+ABUSOTHR,medical,substance use,see RDD,4,0.0,9.0,categorical or discrete (<=15 values)
+CVHATT,medical,cardio/cerebrovascular,see RDD,7,0.0,9.0,continuous / many values
+CVAFIB,medical,cardio/cerebrovascular,see RDD,6,0.0,9.0,continuous / many values
+CVANGIO,medical,cardio/cerebrovascular,see RDD,6,0.0,9.0,continuous / many values
+CVBYPASS,medical,cardio/cerebrovascular,see RDD,5,0.0,9.0,continuous / many values
+CVPACDEF,medical,cardio/cerebrovascular,see RDD,2,0.0,9.0,binary
+CVCHF,medical,cardio/cerebrovascular,see RDD,3,0.0,9.0,categorical or discrete (<=15 values)
+CVOTHR,medical,cardio/cerebrovascular,see RDD,6,0.0,9.0,continuous / many values
+CBSTROKE,medical,cardio/cerebrovascular,see RDD,6,0.0,9.0,continuous / many values
+CBTIA,medical,cardio/cerebrovascular,see RDD,5,0.0,9.0,continuous / many values
+HYPERTEN,medical,cardio/cerebrovascular,see RDD,10,0.0,9.0,continuous / many values
+HYPERCHO,medical,cardio/cerebrovascular,see RDD,10,0.0,9.0,continuous / many values
+SEIZURES,medical,neurological,see RDD,4,0.0,9.0,categorical or discrete (<=15 values)
+NACCTBI,medical,neurological,see RDD,6,0.0,9.0,continuous / many values
+TBI,medical,neurological,see RDD,12,0.0,9.0,continuous / many values
+TBIBRIEF,medical,neurological,see RDD,9,0.0,9.0,continuous / many values
+TBIEXTEN,medical,neurological,see RDD,8,0.0,9.0,continuous / many values
+TBIWOLOS,medical,neurological,see RDD,10,0.0,9.0,continuous / many values
+NACCNREX,medical,neurological,see RDD,5,0.0,1.0,continuous / many values
+NORMEXAM,medical,neurological,see RDD,10,0.0,2.0,continuous / many values
+DIABETES,medical,metabolic / other conditions,see RDD,8,0.0,9.0,continuous / many values
+DIABTYPE,medical,metabolic / other conditions,see RDD,11,1.0,9.0,continuous / many values
+B12DEF,medical,metabolic / other conditions,see RDD,8,0.0,9.0,continuous / many values
+THYROID,medical,metabolic / other conditions,see RDD,8,0.0,9.0,continuous / many values
+ARTHRIT,medical,metabolic / other conditions,see RDD,12,0.0,9.0,continuous / many values
+ARTHTYPE,medical,metabolic / other conditions,see RDD,22,1.0,9.0,continuous / many values
+ARTHUPEX,medical,metabolic / other conditions,see RDD,10,0.0,8.0,continuous / many values
+ARTHLOEX,medical,metabolic / other conditions,see RDD,10,0.0,8.0,continuous / many values
+ARTHSPIN,medical,metabolic / other conditions,see RDD,10,0.0,8.0,continuous / many values
+ARTHUNK,medical,metabolic / other conditions,see RDD,7,0.0,8.0,continuous / many values
+INCONTU,medical,metabolic / other conditions,see RDD,6,0.0,9.0,continuous / many values
+INCONTF,medical,metabolic / other conditions,see RDD,6,0.0,9.0,continuous / many values
+APNEA,medical,metabolic / other conditions,see RDD,12,0.0,9.0,continuous / many values
+RBD,medical,metabolic / other conditions,see RDD,11,0.0,9.0,continuous / many values
+INSOMN,medical,metabolic / other conditions,see RDD,8,0.0,9.0,continuous / many values
+OTHSLEEP,medical,metabolic / other conditions,see RDD,7,0.0,9.0,continuous / many values
+PTSD,medical,psychiatric history,see RDD,8,0.0,9.0,continuous / many values
+BIPOLAR,medical,psychiatric history,see RDD,4,0.0,9.0,continuous / many values
+SCHIZ,medical,psychiatric history,see RDD,6,0.0,9.0,continuous / many values
+DEP2YRS,medical,psychiatric history,see RDD,6,0.0,9.0,continuous / many values
+DEPOTHR,medical,psychiatric history,see RDD,8,0.0,9.0,continuous / many values
+ANXIETY,medical,psychiatric history,see RDD,11,0.0,9.0,continuous / many values
+OCD,medical,psychiatric history,see RDD,7,0.0,9.0,continuous / many values
+NPSYDEV,medical,psychiatric history,see RDD,8,0.0,9.0,continuous / many values
+PSYCDIS,medical,psychiatric history,see RDD,5,0.0,9.0,continuous / many values
+HEIGHT,medical,physical measures / sensory,Height,170,55.0,88.8,continuous / many values
+WEIGHT,medical,physical measures / sensory,Weight,179,91.0,888.0,continuous / many values
+BPSYS,medical,physical measures / sensory,Systolic blood pressure,137,83.0,888.0,continuous / many values
+BPDIAS,medical,physical measures / sensory,Diastolic blood pressure,102,35.0,888.0,continuous / many values
+HRATE,medical,physical measures / sensory,Resting heart rate,95,40.0,888.0,continuous / many values
+NACCBMI,medical,physical measures / sensory,Body mass index,239,15.6,888.8,continuous / many values
+VISION,medical,physical measures / sensory,see RDD,6,0.0,9.0,continuous / many values
+VISCORR,medical,physical measures / sensory,see RDD,6,0.0,9.0,continuous / many values
+VISWCORR,medical,physical measures / sensory,see RDD,10,0.0,9.0,continuous / many values
+HEARING,medical,physical measures / sensory,see RDD,7,0.0,9.0,continuous / many values
+HEARAID,medical,physical measures / sensory,see RDD,6,0.0,9.0,continuous / many values
+HEARWAID,medical,physical measures / sensory,see RDD,7,0.0,9.0,continuous / many values
+NPIQINF,medical,behavioural symptoms (NPI-Q),see RDD,10,1.0,3.0,continuous / many values
+DEL,medical,behavioural symptoms (NPI-Q),see RDD,4,0.0,9.0,continuous / many values
+DELSEV,medical,behavioural symptoms (NPI-Q),see RDD,5,1.0,8.0,continuous / many values
+HALL,medical,behavioural symptoms (NPI-Q),see RDD,3,0.0,9.0,categorical or discrete (<=15 values)
+HALLSEV,medical,behavioural symptoms (NPI-Q),see RDD,4,1.0,8.0,categorical or discrete (<=15 values)
+AGIT,medical,behavioural symptoms (NPI-Q),see RDD,6,0.0,9.0,continuous / many values
+AGITSEV,medical,behavioural symptoms (NPI-Q),see RDD,13,1.0,9.0,continuous / many values
+DEPD,medical,behavioural symptoms (NPI-Q),see RDD,6,0.0,9.0,continuous / many values
+DEPDSEV,medical,behavioural symptoms (NPI-Q),see RDD,13,1.0,9.0,continuous / many values
+ANX,medical,behavioural symptoms (NPI-Q),see RDD,6,0.0,9.0,continuous / many values
+ANXSEV,medical,behavioural symptoms (NPI-Q),see RDD,10,1.0,8.0,continuous / many values
+ELAT,medical,behavioural symptoms (NPI-Q),see RDD,4,0.0,9.0,continuous / many values
+ELATSEV,medical,behavioural symptoms (NPI-Q),see RDD,5,1.0,8.0,continuous / many values
+APA,medical,behavioural symptoms (NPI-Q),see RDD,5,0.0,9.0,continuous / many values
+APASEV,medical,behavioural symptoms (NPI-Q),see RDD,7,1.0,8.0,continuous / many values
+DISN,medical,behavioural symptoms (NPI-Q),see RDD,5,0.0,9.0,continuous / many values
+DISNSEV,medical,behavioural symptoms (NPI-Q),see RDD,8,1.0,9.0,continuous / many values
+IRR,medical,behavioural symptoms (NPI-Q),see RDD,6,0.0,9.0,continuous / many values
+IRRSEV,medical,behavioural symptoms (NPI-Q),see RDD,13,1.0,9.0,continuous / many values
+MOT,medical,behavioural symptoms (NPI-Q),see RDD,3,0.0,9.0,categorical or discrete (<=15 values)
+MOTSEV,medical,behavioural symptoms (NPI-Q),see RDD,4,1.0,8.0,categorical or discrete (<=15 values)
+NITE,medical,behavioural symptoms (NPI-Q),see RDD,5,0.0,9.0,continuous / many values
+NITESEV,medical,behavioural symptoms (NPI-Q),see RDD,8,1.0,9.0,continuous / many values
+APP,medical,behavioural symptoms (NPI-Q),see RDD,6,0.0,9.0,continuous / many values
+APPSEV,medical,behavioural symptoms (NPI-Q),see RDD,9,1.0,8.0,continuous / many values
+NOGDS,medical,mood (GDS),see RDD,3,0.0,1.0,continuous / many values
+SATIS,medical,mood (GDS),see RDD,6,0.0,9.0,continuous / many values
+DROPACT,medical,mood (GDS),see RDD,8,0.0,9.0,continuous / many values
+EMPTY,medical,mood (GDS),see RDD,6,0.0,9.0,continuous / many values
+BORED,medical,mood (GDS),see RDD,7,0.0,9.0,continuous / many values
+SPIRITS,medical,mood (GDS),see RDD,6,0.0,9.0,continuous / many values
+AFRAID,medical,mood (GDS),see RDD,7,0.0,9.0,continuous / many values
+HAPPY,medical,mood (GDS),see RDD,6,0.0,9.0,continuous / many values
+HELPLESS,medical,mood (GDS),see RDD,8,0.0,9.0,continuous / many values
+STAYHOME,medical,mood (GDS),see RDD,6,0.0,9.0,continuous / many values
+MEMPROB,medical,mood (GDS),see RDD,7,0.0,9.0,continuous / many values
+WONDRFUL,medical,mood (GDS),see RDD,7,0.0,9.0,continuous / many values
+WRTHLESS,medical,mood (GDS),see RDD,7,0.0,9.0,continuous / many values
+ENERGY,medical,mood (GDS),see RDD,8,0.0,9.0,continuous / many values
+HOPELESS,medical,mood (GDS),see RDD,5,0.0,9.0,continuous / many values
+BETTER,medical,mood (GDS),see RDD,5,0.0,9.0,continuous / many values
+NACCGDS,medical,mood (GDS),Geriatric Depression Scale total,23,0.0,88.0,continuous / many values

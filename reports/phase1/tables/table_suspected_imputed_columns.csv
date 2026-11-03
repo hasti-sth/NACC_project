@@ -1,0 +1,138 @@
+variable,n_non_integer,domain,subdomain,pct_of_rows
+MEMORY,264,functional,independence / CDR / FAQ,21.3
+MOCATOTS,249,cognitive,neuropsychological tests,20.1
+ARTHRIT,247,medical,metabolic / other conditions,20.0
+ARTHTYPE,233,medical,metabolic / other conditions,18.8
+ARTHUPEX,228,medical,metabolic / other conditions,18.4
+ARTHLOEX,216,medical,metabolic / other conditions,17.5
+JUDGMENT,206,functional,independence / CDR / FAQ,16.7
+ARTHSPIN,187,medical,metabolic / other conditions,15.1
+APNEA,174,medical,metabolic / other conditions,14.1
+TBI,164,medical,neurological,13.3
+NORMEXAM,162,medical,neurological,13.1
+ANXIETY,153,medical,psychiatric history,12.4
+INSOMN,144,medical,metabolic / other conditions,11.6
+ORIENT,126,functional,independence / CDR / FAQ,10.2
+COMMUN,120,functional,independence / CDR / FAQ,9.7
+HOMEHOBB,100,functional,independence / CDR / FAQ,8.1
+TBIBRIEF,97,medical,neurological,7.8
+TBIWOLOS,87,medical,neurological,7.0
+TRAILBRR,69,cognitive,neuropsychological tests,5.6
+TBIEXTEN,66,medical,neurological,5.3
+NPIQINF,62,medical,behavioural symptoms (NPI-Q),5.0
+DEPDSEV,59,medical,behavioural symptoms (NPI-Q),4.8
+IRR,56,medical,behavioural symptoms (NPI-Q),4.5
+DEPD,55,medical,behavioural symptoms (NPI-Q),4.4
+ANXSEV,54,medical,behavioural symptoms (NPI-Q),4.4
+ANX,53,medical,behavioural symptoms (NPI-Q),4.3
+TRAILARR,53,cognitive,neuropsychological tests,4.3
+IRRSEV,51,medical,behavioural symptoms (NPI-Q),4.1
+AGIT,51,medical,behavioural symptoms (NPI-Q),4.1
+BPDIAS,50,medical,physical measures / sensory,4.0
+TRAILB,48,cognitive,neuropsychological tests,3.9
+RBD,48,medical,metabolic / other conditions,3.9
+OTHSLEEP,48,medical,metabolic / other conditions,3.9
+TRAILA,48,cognitive,neuropsychological tests,3.9
+AGITSEV,47,medical,behavioural symptoms (NPI-Q),3.8
+NPSYDEV,41,medical,psychiatric history,3.3
+BPSYS,39,medical,physical measures / sensory,3.2
+PTSD,38,medical,psychiatric history,3.1
+APPSEV,37,medical,behavioural symptoms (NPI-Q),3.0
+APP,36,medical,behavioural symptoms (NPI-Q),2.9
+HRATE,36,medical,physical measures / sensory,2.9
+WEIGHT,31,medical,physical measures / sensory,2.5
+NITESEV,31,medical,behavioural symptoms (NPI-Q),2.5
+HYPERCHO,25,medical,cardio/cerebrovascular,2.0
+APASEV,25,medical,behavioural symptoms (NPI-Q),2.0
+APA,25,medical,behavioural symptoms (NPI-Q),2.0
+DISNSEV,25,medical,behavioural symptoms (NPI-Q),2.0
+NITE,25,medical,behavioural symptoms (NPI-Q),2.0
+DISN,24,medical,behavioural symptoms (NPI-Q),1.9
+TOBAC100,24,medical,substance use,1.9
+NACCAMS,23,medical,family history,1.9
+PACKSPER,23,medical,substance use,1.9
+NACCNREX,22,medical,neurological,1.8
+HYPERTEN,22,medical,cardio/cerebrovascular,1.8
+REMDATES,21,functional,independence / CDR / FAQ,1.7
+TRAILBLI,20,cognitive,neuropsychological tests,1.6
+TAXES,20,functional,independence / CDR / FAQ,1.6
+NACCTBI,19,medical,neurological,1.5
+SMOKYRS,19,medical,substance use,1.5
+VISWCORR,19,medical,physical measures / sensory,1.5
+BILLS,19,functional,independence / CDR / FAQ,1.5
+DEPOTHR,18,medical,psychiatric history,1.5
+HEARWAID,18,medical,physical measures / sensory,1.5
+TRAVEL,18,functional,independence / CDR / FAQ,1.5
+QUITSMOK,18,medical,substance use,1.5
+ARTHUNK,17,medical,metabolic / other conditions,1.4
+DEP2YRS,16,medical,psychiatric history,1.3
+ELAT,16,medical,behavioural symptoms (NPI-Q),1.3
+DELSEV,16,medical,behavioural symptoms (NPI-Q),1.3
+ELATSEV,16,medical,behavioural symptoms (NPI-Q),1.3
+DEL,15,medical,behavioural symptoms (NPI-Q),1.2
+MEALPREP,14,functional,independence / CDR / FAQ,1.1
+B12DEF,14,medical,metabolic / other conditions,1.1
+THYROID,14,medical,metabolic / other conditions,1.1
+PAYATTN,13,functional,independence / CDR / FAQ,1.1
+DIABETES,12,medical,metabolic / other conditions,1.0
+DIABTYPE,12,medical,metabolic / other conditions,1.0
+OCD,12,medical,psychiatric history,1.0
+INCONTU,11,medical,metabolic / other conditions,0.9
+BORED,10,medical,mood (GDS),0.8
+MEMPROB,10,medical,mood (GDS),0.8
+ENERGY,10,medical,mood (GDS),0.8
+HAPPY,10,medical,mood (GDS),0.8
+SPIRITS,9,medical,mood (GDS),0.7
+HEARING,9,medical,physical measures / sensory,0.7
+WRTHLESS,9,medical,mood (GDS),0.7
+STAYHOME,8,medical,mood (GDS),0.6
+SATIS,8,medical,mood (GDS),0.6
+HELPLESS,8,medical,mood (GDS),0.6
+VISCORR,8,medical,physical measures / sensory,0.6
+NACCGDS,8,medical,mood (GDS),0.6
+DROPACT,8,medical,mood (GDS),0.6
+GAMES,7,functional,independence / CDR / FAQ,0.6
+SCHIZ,7,medical,psychiatric history,0.6
+BIPOLAR,7,medical,psychiatric history,0.6
+HEARAID,7,medical,physical measures / sensory,0.6
+VISION,7,medical,physical measures / sensory,0.6
+SHOPPING,6,functional,independence / CDR / FAQ,0.5
+EVENTS,6,functional,independence / CDR / FAQ,0.5
+EMPTY,6,medical,mood (GDS),0.5
+WONDRFUL,6,medical,mood (GDS),0.5
+NACCFM,6,medical,family history,0.5
+NACCOM,6,medical,family history,0.5
+NACCMOM,5,medical,family history,0.4
+TOBAC30,5,medical,substance use,0.4
+TRAILALI,5,cognitive,neuropsychological tests,0.4
+CVHATT,5,medical,cardio/cerebrovascular,0.4
+INCONTF,5,medical,metabolic / other conditions,0.4
+NACCAM,5,medical,family history,0.4
+CVAFIB,5,medical,cardio/cerebrovascular,0.4
+CVOTHR,4,medical,cardio/cerebrovascular,0.3
+HOPELESS,4,medical,mood (GDS),0.3
+AFRAID,4,medical,mood (GDS),0.3
+CVANGIO,3,medical,cardio/cerebrovascular,0.2
+CBSTROKE,3,medical,cardio/cerebrovascular,0.2
+NACCFAM,3,medical,family history,0.2
+BETTER,3,medical,mood (GDS),0.2
+ALCOHOL,3,medical,substance use,0.2
+NACCAHTN,2,medical,medications,0.2
+NACCAMD,2,medical,medications,0.2
+CBTIA,2,medical,cardio/cerebrovascular,0.2
+STOVE,2,functional,independence / CDR / FAQ,0.2
+NACCCCBS,2,medical,medications,0.2
+NACCAC,2,medical,medications,0.2
+NACCDIUR,2,medical,medications,0.2
+NACCNSD,2,medical,medications,0.2
+NACCLIPL,2,medical,medications,0.2
+NACCANGI,2,medical,medications,0.2
+NACCDAD,1,medical,family history,0.1
+ANYMEDS,1,medical,medications,0.1
+NACCAANX,1,medical,medications,0.1
+PSYCDIS,1,medical,psychiatric history,0.1
+CVBYPASS,1,medical,cardio/cerebrovascular,0.1
+NACCPDMD,1,medical,medications,0.1
+NOGDS,1,medical,mood (GDS),0.1
+ANIMALS,1,cognitive,neuropsychological tests,0.1
+VEG,1,cognitive,neuropsychological tests,0.1

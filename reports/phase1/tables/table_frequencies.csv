@@ -1,0 +1,28 @@
+category,variable,n,pct
+2 Spouse/partner,"NACCLIVS (all 1,237)",827,66.9
+1 Alone,"NACCLIVS (all 1,237)",254,20.5
+3 Relative/friend,"NACCLIVS (all 1,237)",82,6.6
+4 Group,"NACCLIVS (all 1,237)",70,5.7
+9 Unknown,"NACCLIVS (all 1,237)",3,0.2
+5 Other,"NACCLIVS (all 1,237)",1,0.1
+Alone,NACCLIVS (sample A),195,22.6
+Spouse/partner,NACCLIVS (sample A),574,66.7
+Relative/friend,NACCLIVS (sample A),56,6.5
+Group,NACCLIVS (sample A),36,4.2
+Female,SEX (sample A),492,57.1
+Male,SEX (sample A),369,42.9
+Normal,NACCUDSD (sample A),564,65.5
+Impaired-not-MCI,NACCUDSD (sample A),6,0.7
+MCI,NACCUDSD (sample A),203,23.6
+Dementia,NACCUDSD (sample A),88,10.2
+Married,MARISTAT (sample A),583,67.7
+Divorced,MARISTAT (sample A),112,13.0
+Widowed,MARISTAT (sample A),91,10.6
+Never married,MARISTAT (sample A),50,5.8
+Living as married,MARISTAT (sample A),17,2.0
+Separated,MARISTAT (sample A),7,0.8
+Unknown,MARISTAT (sample A),1,0.1
+Normal,"NACCUDSD (all 1,237)",847,68.5
+Impaired-not-MCI,"NACCUDSD (all 1,237)",7,0.6
+MCI,"NACCUDSD (all 1,237)",252,20.4
+Dementia,"NACCUDSD (all 1,237)",131,10.6

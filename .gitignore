@@ -1,0 +1,10 @@
+# raw data must never be committed
+data/*.csv
+data/*.xlsx
+*.zip
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store

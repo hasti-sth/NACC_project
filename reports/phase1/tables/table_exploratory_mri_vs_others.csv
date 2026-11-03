@@ -1,0 +1,13 @@
+MRI variable,TRAILB,TRAILA,AGE,EDUC
+LH caudal MF thick,-0.1,-0.09,-0.19,-0.09
+LH rostral MF thick,-0.04,-0.0,-0.04,-0.05
+LH superior F thick,-0.08,-0.07,-0.14,-0.05
+RH caudal MF thick,-0.12,-0.09,-0.11,-0.05
+RH rostral MF thick,-0.08,-0.08,0.0,0.01
+RH superior F thick,-0.09,-0.06,-0.06,0.01
+LH caudal MF vol,-0.14,-0.19,-0.1,0.1
+LH rostral MF vol,-0.14,-0.19,-0.11,0.13
+LH superior F vol,-0.18,-0.19,-0.11,0.16
+RH caudal MF vol,-0.15,-0.19,-0.12,0.07
+RH rostral MF vol,-0.16,-0.21,-0.13,0.1
+RH superior F vol,-0.16,-0.18,-0.1,0.14
