@@ -1,0 +1,9 @@
+variable,n_unavailable_all,pct_all,n_unavailable_A,pct_A
+NACCLIVS (valid code 1-5),3,0.2,0,0.0
+NACCAGE,0,0.0,0,0.0
+SEX,0,0.0,0,0.0
+EDUC (99 = unknown),2,0.2,1,0.1
+TRAILB (primary: observed only),103,8.3,63,7.3
+TRAILB (incl. in-range imputed),64,5.2,40,4.6
+Frontal thickness (6 regions),0,0.0,0,0.0
+All 124 MRI columns (any NaN),0,0.0,0,0.0

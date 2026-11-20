@@ -1,0 +1,6 @@
+pair,n,value,unit
+"Cov(thickness, TRAILB)",798,-1.1137,mm x s
+"Cov(thickness, log10 TRAILB)",798,-0.0036,mm x log10 s
+Pearson r (descriptive),798,-0.1432,-
+Spearman rho (descriptive),798,-0.0987,-
+Cov excluding 2 thickness values < 1.5 mm (check only),796,-1.0031,mm x s

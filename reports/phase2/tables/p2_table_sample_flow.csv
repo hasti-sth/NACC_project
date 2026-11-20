@@ -1,0 +1,7 @@
+step,n
+Linked participants (UDS + MRI),1237
+Age >= 65,864
+Sample A: valid NACCLIVS in 1-4,861
+  A with observed TRAILB,798
+  A with frontal thickness,861
+  A with both TRAILB and thickness,798

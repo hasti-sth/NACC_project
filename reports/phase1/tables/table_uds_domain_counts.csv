@@ -1,0 +1,16 @@
+domain,subdomain,n_variables
+cognitive,neuropsychological tests,10
+demographic,demographics,11
+diagnostic,cognitive status,1
+functional,independence / CDR / FAQ,19
+medical,behavioural symptoms (NPI-Q),25
+medical,cardio/cerebrovascular,11
+medical,family history,11
+medical,genetic,1
+medical,medications,21
+medical,metabolic / other conditions,16
+medical,mood (GDS),17
+medical,neurological,8
+medical,physical measures / sensory,12
+medical,psychiatric history,9
+medical,substance use,7

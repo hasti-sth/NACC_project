@@ -1,0 +1,5 @@
+probability,empirical,normal approx. (raw scale),normal approx. (robust for thickness / log10 scale for TRAILB)
+P(FRONTAL_THK < 2.20 mm),0.0499,0.0734,0.0326
+P(FRONTAL_THK < 1.90 mm),0.0035,0.0001,0.0
+P(TRAILB > 150 s),0.1391,0.2265,0.1471
+P(TRAILB > 200 s),0.0852,0.0621,0.0518

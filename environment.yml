@@ -1,0 +1,14 @@
+name: stats-nacc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pillow
+  - jupyter
+  - pip
+  - pip:
+      - reportlab

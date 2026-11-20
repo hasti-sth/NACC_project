@@ -1,0 +1,342 @@
+{
+ "Q3_TRAILB": 113.75,
+ "Q1_THK": 2.3153333333333332,
+ "n_A": 861,
+ "alone_slow": {
+  "n": 798.0,
+  "n_AB": 41.0,
+  "P(A)": 0.23182957393483708,
+  "P(B)": 0.2506265664160401,
+  "P(A and B)": 0.05137844611528822
+ },
+ "conditional": [
+  {
+   "event": "slow",
+   "given": "living: Alone",
+   "n_given": 185,
+   "n_event_and_given": 41,
+   "P(event | given)": 0.2216,
+   "P(event)": 0.2506,
+   "difference vs P(event)": -0.029
+  },
+  {
+   "event": "slow",
+   "given": "living: Spouse/partner",
+   "n_given": 529,
+   "n_event_and_given": 126,
+   "P(event | given)": 0.2382,
+   "P(event)": 0.2506,
+   "difference vs P(event)": -0.0124
+  },
+  {
+   "event": "slow",
+   "given": "living: Relative/friend",
+   "n_given": 50,
+   "n_event_and_given": 22,
+   "P(event | given)": 0.44,
+   "P(event)": 0.2506,
+   "difference vs P(event)": 0.1894
+  },
+  {
+   "event": "slow",
+   "given": "living: Group",
+   "n_given": 34,
+   "n_event_and_given": 11,
+   "P(event | given)": 0.3235,
+   "P(event)": 0.2506,
+   "difference vs P(event)": 0.0729
+  },
+  {
+   "event": "slow",
+   "given": "not alone",
+   "n_given": 613,
+   "n_event_and_given": 159,
+   "P(event | given)": 0.2594,
+   "P(event)": 0.2506,
+   "difference vs P(event)": 0.0088
+  },
+  {
+   "event": "impaired",
+   "given": "thin frontal cortex",
+   "n_given": 214,
+   "n_event_and_given": 87,
+   "P(event | given)": 0.4065,
+   "P(event)": 0.3449,
+   "difference vs P(event)": 0.0616
+  },
+  {
+   "event": "impaired",
+   "given": "not thin frontal cortex",
+   "n_given": 647,
+   "n_event_and_given": 210,
+   "P(event | given)": 0.3246,
+   "P(event)": 0.3449,
+   "difference vs P(event)": -0.0204
+  },
+  {
+   "event": "slow",
+   "given": "thin frontal cortex",
+   "n_given": 191,
+   "n_event_and_given": 61,
+   "P(event | given)": 0.3194,
+   "P(event)": 0.2506,
+   "difference vs P(event)": 0.0687
+  },
+  {
+   "event": "slow",
+   "given": "not thin frontal cortex",
+   "n_given": 607,
+   "n_event_and_given": 139,
+   "P(event | given)": 0.229,
+   "P(event)": 0.2506,
+   "difference vs P(event)": -0.0216
+  },
+  {
+   "event": "thin",
+   "given": "alone",
+   "n_given": 195,
+   "n_event_and_given": 50,
+   "P(event | given)": 0.2564,
+   "P(event)": 0.2485,
+   "difference vs P(event)": 0.0079
+  },
+  {
+   "event": "thin",
+   "given": "spouse/partner",
+   "n_given": 574,
+   "n_event_and_given": 146,
+   "P(event | given)": 0.2544,
+   "P(event)": 0.2485,
+   "difference vs P(event)": 0.0058
+  }
+ ],
+ "independence": [
+  {
+   "A": "alone",
+   "B": "slow",
+   "n": 798,
+   "P(A)": 0.232,
+   "P(B)": 0.251,
+   "P(A and B)": 0.051,
+   "P(A)P(B)": 0.058,
+   "ratio": 0.884,
+   "P(B|A)": 0.222,
+   "P(B|not A)": 0.259,
+   "P(B|A) - P(B)": -0.029
+  },
+  {
+   "A": "thin",
+   "B": "slow",
+   "n": 798,
+   "P(A)": 0.239,
+   "P(B)": 0.251,
+   "P(A and B)": 0.076,
+   "P(A)P(B)": 0.06,
+   "ratio": 1.274,
+   "P(B|A)": 0.319,
+   "P(B|not A)": 0.229,
+   "P(B|A) - P(B)": 0.069
+  },
+  {
+   "A": "thin",
+   "B": "impaired",
+   "n": 861,
+   "P(A)": 0.249,
+   "P(B)": 0.345,
+   "P(A and B)": 0.101,
+   "P(A)P(B)": 0.086,
+   "ratio": 1.179,
+   "P(B|A)": 0.407,
+   "P(B|not A)": 0.325,
+   "P(B|A) - P(B)": 0.062
+  },
+  {
+   "A": "alone",
+   "B": "thin",
+   "n": 861,
+   "P(A)": 0.226,
+   "P(B)": 0.249,
+   "P(A and B)": 0.058,
+   "P(A)P(B)": 0.056,
+   "ratio": 1.032,
+   "P(B|A)": 0.256,
+   "P(B|not A)": 0.246,
+   "P(B|A) - P(B)": 0.008
+  },
+  {
+   "A": "alone",
+   "B": "impaired",
+   "n": 861,
+   "P(A)": 0.226,
+   "P(B)": 0.345,
+   "P(A and B)": 0.048,
+   "P(A)P(B)": 0.078,
+   "ratio": 0.61,
+   "P(B|A)": 0.21,
+   "P(B|not A)": 0.384,
+   "P(B|A) - P(B)": -0.135
+  },
+  {
+   "A": "slow",
+   "B": "impaired",
+   "n": 798,
+   "P(A)": 0.251,
+   "P(B)": 0.316,
+   "P(A and B)": 0.152,
+   "P(A)P(B)": 0.079,
+   "ratio": 1.916,
+   "P(B|A)": 0.605,
+   "P(B|not A)": 0.219,
+   "P(B|A) - P(B)": 0.289
+  }
+ ],
+ "binomial": {
+  "n (alone, TRAILB observed)": 185.0,
+  "p = overall P(slow)": 0.2506,
+  "observed count k": 41.0,
+  "E[X] = n p": 46.37,
+  "SD[X]": 5.89,
+  "z = (k - np)/SD": -0.91,
+  "P(X <= k)": 0.206,
+  "P(X >= k)": 0.84
+ },
+ "normality": [
+  {
+   "variable": "Frontal thickness (mm)",
+   "n": 861,
+   "mean": 2.379,
+   "SD": 0.124,
+   "variance": 0.015,
+   "median": 2.387,
+   "min": 1.035,
+   "max": 2.798,
+   "skewness": -2.519,
+   "excess kurtosis": 22.673,
+   "within 1 SD (normal 68.3%)": 76.887,
+   "within 2 SD (95.4%)": 96.864,
+   "within 3 SD (99.7%)": 99.187,
+   "Tukey outliers": 16,
+   "robust SD (IQR/1.349)": 0.101
+  },
+  {
+   "variable": "TRAILB (s)",
+   "n": 798,
+   "mean": 102.337,
+   "SD": 63.512,
+   "variance": 4033.754,
+   "median": 82.0,
+   "min": 28.0,
+   "max": 300.0,
+   "skewness": 1.968,
+   "excess kurtosis": 3.398,
+   "within 1 SD (normal 68.3%)": 87.469,
+   "within 2 SD (95.4%)": 92.607,
+   "within 3 SD (99.7%)": 94.11,
+   "Tukey outliers": 69,
+   "robust SD (IQR/1.349)": 37.62
+  },
+  {
+   "variable": "log10 TRAILB (log10 s)",
+   "n": 798,
+   "mean": 1.949,
+   "SD": 0.216,
+   "variance": 0.047,
+   "median": 1.914,
+   "min": 1.447,
+   "max": 2.477,
+   "skewness": 0.774,
+   "excess kurtosis": 0.364,
+   "within 1 SD (normal 68.3%)": 72.18,
+   "within 2 SD (95.4%)": 92.231,
+   "within 3 SD (99.7%)": 100.0,
+   "Tukey outliers": 49,
+   "robust SD (IQR/1.349)": 0.19
+  }
+ ],
+ "EV": [
+  {
+   "variable": "X = TRAILB",
+   "unit": "s",
+   "E": 102.3371,
+   "Var": 4033.7545,
+   "SD": 63.5118,
+   "unit of Var": "s^2"
+  },
+  {
+   "variable": "Y = FRONTAL_THK",
+   "unit": "mm",
+   "E": 2.3794,
+   "Var": 0.0153,
+   "SD": 0.1236,
+   "unit of Var": "mm^2"
+  },
+  {
+   "variable": "log10 TRAILB",
+   "unit": "log10 s",
+   "E": 1.9495,
+   "Var": 0.0467,
+   "SD": 0.216,
+   "unit of Var": "log10(s)^2"
+  }
+ ],
+ "covariance": [
+  {
+   "pair": "Cov(thickness, TRAILB)",
+   "n": 798,
+   "value": -1.1137,
+   "unit": "mm x s"
+  },
+  {
+   "pair": "Cov(thickness, log10 TRAILB)",
+   "n": 798,
+   "value": -0.0036,
+   "unit": "mm x log10 s"
+  },
+  {
+   "pair": "Pearson r (descriptive)",
+   "n": 798,
+   "value": -0.1432,
+   "unit": "-"
+  },
+  {
+   "pair": "Spearman rho (descriptive)",
+   "n": 798,
+   "value": -0.0987,
+   "unit": "-"
+  },
+  {
+   "pair": "Cov excluding 2 thickness values < 1.5 mm (check only)",
+   "n": 796,
+   "value": -1.0031,
+   "unit": "mm x s"
+  }
+ ],
+ "bayes": [
+  {
+   "test": "slow TRAILB (UDS)",
+   "n": 798,
+   "prior P(D)": 0.3158,
+   "sensitivity P(T|D)": 0.4802,
+   "specificity P(not T|not D)": 0.8553,
+   "P(T)": 0.2506,
+   "posterior P(D|T)": 0.605,
+   "P(D|not T)": 0.2191,
+   "positive likelihood ratio": 3.3186,
+   "prior odds": 0.4615,
+   "posterior odds = prior odds x LR": 1.5316
+  },
+  {
+   "test": "thin frontal cortex (MRI)",
+   "n": 861,
+   "prior P(D)": 0.3449,
+   "sensitivity P(T|D)": 0.2929,
+   "specificity P(not T|not D)": 0.7748,
+   "P(T)": 0.2485,
+   "posterior P(D|T)": 0.4065,
+   "P(D|not T)": 0.3246,
+   "positive likelihood ratio": 1.3009,
+   "prior odds": 0.5266,
+   "posterior odds = prior odds x LR": 0.685
+  }
+ ]
+}

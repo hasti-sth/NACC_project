@@ -1,0 +1,4 @@
+variable,n,mean,SD,variance,median,min,max,skewness,excess kurtosis,within 1 SD (normal 68.3%),within 2 SD (95.4%),within 3 SD (99.7%),Tukey outliers,robust SD (IQR/1.349)
+Frontal thickness (mm),861,2.379,0.124,0.015,2.387,1.035,2.798,-2.519,22.673,76.887,96.864,99.187,16,0.101
+TRAILB (s),798,102.337,63.512,4033.754,82.0,28.0,300.0,1.968,3.398,87.469,92.607,94.11,69,37.62
+log10 TRAILB (log10 s),798,1.949,0.216,0.047,1.914,1.447,2.477,0.774,0.364,72.18,92.231,100.0,49,0.19

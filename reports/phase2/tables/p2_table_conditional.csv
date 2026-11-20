@@ -1,0 +1,12 @@
+event,given,n_given,n_event_and_given,P(event | given),P(event),difference vs P(event)
+slow,living: Alone,185,41,0.2216,0.2506,-0.029
+slow,living: Spouse/partner,529,126,0.2382,0.2506,-0.0124
+slow,living: Relative/friend,50,22,0.44,0.2506,0.1894
+slow,living: Group,34,11,0.3235,0.2506,0.0729
+slow,not alone,613,159,0.2594,0.2506,0.0088
+impaired,thin frontal cortex,214,87,0.4065,0.3449,0.0616
+impaired,not thin frontal cortex,647,210,0.3246,0.3449,-0.0204
+slow,thin frontal cortex,191,61,0.3194,0.2506,0.0687
+slow,not thin frontal cortex,607,139,0.229,0.2506,-0.0216
+thin,alone,195,50,0.2564,0.2485,0.0079
+thin,spouse/partner,574,146,0.2544,0.2485,0.0058

@@ -1,0 +1,9 @@
+problem,how many,decision,reason
+"Special codes (EDUC 99, NACCLIVS 9, TRAILB/TRAILA 995-998)",n per variable: see table_audit_main_variables,Recode to NaN on a working copy,"These are 'unknown/not done' codes, not measurements; averaging them would be meaningless."
+Non-integer (suspected imputed) TRAILB/TRAILA values,TRAILB: 48 values,Excluded from primary TRAILB; kept in sensitivity definition (in-range only),Imputation method unknown; values > 300 s are impossible for this test.
+TRAILB = 300 s,55 participants,Kept; flagged as censored at the time limit,"True time is >= 300 s; Phase 3/4 will check sensitivity (e.g. log scale, rank methods)."
+Other suspected imputed columns,"137 columns, 5311 cells",Not used in the main question; documented only,Variables are outside the analysis plan; ask teaching team about imputation method.
+MRI thickness < 1 mm in a frontal region,7 cells / 3 participants,Kept and flagged (FRONTAL_flag_lt1mm); influence checked in Phase 4/5,Biologically unlikely (likely segmentation error) but no rule allows silent deletion.
+MRI volume = 0,2 cells,Kept; not used in the main question,Volumes are not part of the analysis plan.
+Duplicate NACCID,0,None needed,One record per participant in both files.
+Logical inconsistencies,see table_logic_checks,No row removed; flagged items are plausible,No contradictory NACCUDSD/CDR or impossible age/education combinations.

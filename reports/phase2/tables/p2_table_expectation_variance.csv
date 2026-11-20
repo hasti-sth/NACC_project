@@ -1,0 +1,4 @@
+variable,unit,E,Var,SD,unit of Var
+X = TRAILB,s,102.3371,4033.7545,63.5118,s^2
+Y = FRONTAL_THK,mm,2.3794,0.0153,0.1236,mm^2
+log10 TRAILB,log10 s,1.9495,0.0467,0.216,log10(s)^2

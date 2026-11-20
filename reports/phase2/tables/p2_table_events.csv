@@ -1,0 +1,6 @@
+event,definition,threshold,n_defined,n_event,P(event)
+alone,NACCLIVS = 1,-,861,195,0.226
+spouse,NACCLIVS = 2,-,861,574,0.667
+slow,TRAILB > Q3 of observed TRAILB in A,113.75 s,798,200,0.251
+thin,FRONTAL_THK < Q1 of FRONTAL_THK in A,2.315 mm,861,214,0.249
+impaired,NACCUDSD != 1 (not normal cognition),-,861,297,0.345

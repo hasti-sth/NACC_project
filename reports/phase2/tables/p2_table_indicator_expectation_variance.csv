@@ -1,0 +1,5 @@
+event,p = E[indicator],Var = p(1-p)
+alone,0.2265,0.1752
+slow,0.2506,0.1878
+thin,0.2485,0.1868
+impaired,0.3449,0.226

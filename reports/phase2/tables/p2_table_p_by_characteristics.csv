@@ -1,0 +1,7 @@
+variable,level,n,p_slow
+status,impaired,252,0.48
+status,normal cognition,546,0.145
+age_group,65-74,549,0.186
+age_group,75+,249,0.394
+sex,Female,454,0.247
+sex,Male,344,0.256

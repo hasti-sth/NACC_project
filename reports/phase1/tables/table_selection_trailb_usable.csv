@@ -1,0 +1,3 @@
+TRAILB_status,n,age_mean,age_sd,pct_female,educ_median,pct_alone,pct_MCI,pct_dementia,frontal_thk_mean
+TRAILB not usable,63.0,72.73,5.58,60.32,16.0,15.87,26.98,44.44,2.36
+TRAILB usable,798.0,72.19,5.29,56.89,16.0,23.18,23.31,7.52,2.38

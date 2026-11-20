@@ -1,0 +1,5 @@
+thk_quartile,n,mean_thickness,mean_TRAILB,median_TRAILB
+Q1 (thinnest),201,2.237,113.433,87.0
+Q2,198,2.355,106.551,84.0
+Q3,200,2.422,98.015,82.5
+Q4 (thickest),199,2.512,91.281,77.0

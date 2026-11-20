@@ -1,0 +1,4 @@
+subsample size n,replications,simulated mean,binomial n p,simulated variance,binomial n p (1-p),hypergeometric variance,finite-population factor (N-n)/(N-1)
+20,5000,5.079,5.013,3.585,3.756,3.667,0.976
+50,5000,12.568,12.531,9.069,9.391,8.813,0.939
+185,5000,46.479,46.366,26.957,34.745,26.724,0.769

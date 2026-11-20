@@ -1,0 +1,3 @@
+test,n,prior P(D),sensitivity P(T|D),specificity P(not T|not D),P(T),posterior P(D|T),P(D|not T),positive likelihood ratio,prior odds,posterior odds = prior odds x LR
+slow TRAILB (UDS),798,0.3158,0.4802,0.8553,0.2506,0.605,0.2191,3.3186,0.4615,1.5316
+thin frontal cortex (MRI),861,0.3449,0.2929,0.7748,0.2485,0.4065,0.3246,1.3009,0.5266,0.685

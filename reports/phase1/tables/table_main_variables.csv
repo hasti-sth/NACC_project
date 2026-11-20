@@ -1,0 +1,7 @@
+variable,source,meaning,type / scale,role (from PROJECT_CARD),summary / plot choice
+NACCLIVS,UDS,Living situation,"Nominal (categorical, 4 usable groups)",Main explanatory / grouping variable,"Frequency table, bar chart; ANOVA/chi-square family later"
+TRAILB,UDS,Trail Making B time (s),"Quantitative continuous (ratio); right-skewed, capped at 300 s, special codes",Cognitive response (executive function),"Median/IQR, boxplot, log scale"
+NACCAGE,UDS,Age (years),Quantitative continuous,Adjusting variable / sample definition (>=65),"Mean/SD or median/IQR, histogram"
+SEX,UDS,Sex,Binary,Adjusting variable,Frequency table
+EDUC,UDS,Years of education,Quantitative discrete,Adjusting variable,Median/IQR (ceiling near 16-20 years)
+FRONTAL_THK,MRI (derived),"Mean AVGTH of 6 frontal values (caudal/rostral middle frontal, superior frontal; LH+RH), mm",Quantitative continuous,Imaging response,"Mean/SD, histogram, boxplot"
